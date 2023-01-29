@@ -3,19 +3,50 @@
 
 <head>
     <meta charset="utf-8">
-    <title>starter code</title>
+    <title>Calorie Burner</title>
 <link rel="stylesheet" type="text/css" href="site.css">
 </head>
 
 <body>
-<h2>starter project</h2>
 
-<button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
+<div id="first">
+   <h1>Calorie Burner</h1>
+    <div>
+    <input type="radio" id="Situps" name="workout" value="Sit Ups" />
+    <label for="Sit Ups">Sit Ups</label>
+    <br>
+    <input type="radio" id="Pushups" name="workout" value="Push Ups" />
+    <label for="Push Ups">Push Ups</label>
+    <br>
+    <input type="radio" id="Jumprope" name="workout" value="Jump Rope" />
+    <label for="Jump Rope">Jump Rope</label>
+    </div>
 </div>
+
+<br>
+
+<div id = "second">
+    <p>How many minutes</p>
+    <input type="text" id="minutes">
+    <br>
+    <button id="Add">Add</button>
+</div>
+
+<br>
+
+<div id = "second">
+    <button id="burned">Most Burned</button>
+    <br>
+    <input type="text" id="minutes">
+</div>
+
+<br>
+<br>
+
+<div id = "third">
+    <button id="showall">Show All</button>
+</div>
+
 
 <script src="main.js"></script>
 </body>
